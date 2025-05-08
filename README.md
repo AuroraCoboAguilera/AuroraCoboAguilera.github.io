@@ -10,6 +10,8 @@ This is my personal portfolio, created with HTML and CSS.
 * [Skills](#skills)
 * [Projects](#projects)
 * [Publications](#publications)
+* [Conferences and Seminars](#conferences)
+* [Awards](#awards)
 * [Contact](#contact)
 
 ## Used Techs
