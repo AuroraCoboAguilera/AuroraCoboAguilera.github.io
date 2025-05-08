@@ -12,6 +12,7 @@ This is my personal portfolio, created with HTML and CSS.
 * [Publications](#publications)
 * [Conferences and Seminars](#conferences)
 * [Awards](#awards)
+* [My Interests](#interest)
 * [Contact](#contact)
 
 ## Used Techs
