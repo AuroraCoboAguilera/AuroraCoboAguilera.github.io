@@ -66,6 +66,11 @@ section:hover {
     box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2); /* Sombra más pronunciada */
 }
 
+h1 {
+    color: #fff; /* Cambia el color del texto a blanco */
+    font-size: 2.5em; /* Puedes ajustar el tamaño de la fuente si lo deseas */
+    margin-bottom: 0.5rem; /* Ajusta el espacio inferior si es necesario */
+}
 
 h2 {
     color: #4682b4; /* Steel blue headings */
