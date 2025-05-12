@@ -8,7 +8,7 @@ body {
 }
 
 header {
-    background-color: #964ec6; 
+    background-color: linear-gradient(to right, #4682b4, #964ec6);
     color: #fff;
     padding: 1rem 0;
     text-align: center;
@@ -39,11 +39,11 @@ nav ul li {
 nav a {
     color: #fff;
     text-decoration: none;
-    transition: color 0.3s ease; /* Transición suave para el cambio de color */
+    transition: color 0.3s ease; /* soft transition for mouse */
 }
 
 nav a:hover {
-    color: #e0b0ff; /* Cambia el color al púrpura rosado al pasar el ratón */
+    color: #e0b0ff; /* change colour when mouse passes */
 }
 
 main {
@@ -56,6 +56,12 @@ section {
     padding: 20px;
     border-radius: 8px;
     box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    transition: transform 0.2s ease-in-out; /* Transición suave para el escalado */
+}
+
+section:hover {
+    transform: scale(1.02); /* Escala ligeramente la sección al pasar el ratón */
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2); /* Sombra más pronunciada */
 }
 
 h2 {
@@ -82,7 +88,7 @@ ul {
 footer {
     text-align: center;
     padding: 1rem 0;
-    background-color: #4682b4; /* Steel blue footer */
+    background-color: linear-gradient(to right, #964ec6, #4682b4); /* Steel blue footer */
     color: #fff;
     position: sticky;
     bottom: 0;
