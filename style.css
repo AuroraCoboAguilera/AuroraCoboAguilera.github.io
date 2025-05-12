@@ -10,7 +10,7 @@ body {
 }
 
 header {
-    background-color: linear-gradient(to right, #4682b4, #964ec6);
+    background-color: #964ec6;
     color: #fff;
     padding: 1rem 0;
     text-align: center;
@@ -98,7 +98,7 @@ ul {
 footer {
     text-align: center;
     padding: 1rem 0;
-    background-color: linear-gradient(to right, #964ec6, #4682b4); /* Steel blue footer */
+    background-color: #964ec6; /* Steel blue footer */
     color: #fff;
     position: sticky;
     bottom: 0;
