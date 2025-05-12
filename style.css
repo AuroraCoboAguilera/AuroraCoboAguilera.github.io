@@ -18,10 +18,11 @@ header {
 }
 
 .profile-picture {
-    width: 150px;
-    height: 150px;
+    width: 150px; /* Set a fixed width */
+    height: 150px; /* Set a fixed height */
     border-radius: 50%;
     margin-bottom: 1rem;
+    object-fit: cover; /* Crop and center the image */
 }
 
 nav ul {
