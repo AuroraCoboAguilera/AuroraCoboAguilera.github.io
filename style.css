@@ -8,7 +8,7 @@ body {
 }
 
 header {
-    background-color: #4682b4; /* Steel blue header */
+    background-color: #964ec6; 
     color: #fff;
     padding: 1rem 0;
     text-align: center;
@@ -39,6 +39,11 @@ nav ul li {
 nav a {
     color: #fff;
     text-decoration: none;
+    transition: color 0.3s ease; /* Transición suave para el cambio de color */
+}
+
+nav a:hover {
+    color: #e0b0ff; /* Cambia el color al púrpura rosado al pasar el ratón */
 }
 
 main {
